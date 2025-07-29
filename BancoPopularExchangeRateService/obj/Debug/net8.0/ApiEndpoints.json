@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "BancoPopularExchangeRateService.Controllers.ExchangeController",
+    "Method": "PostRate",
+    "RelativePath": "api/Exchange",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BancoPopularExchangeRateService.Domain.Models.ExchangeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

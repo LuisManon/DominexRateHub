@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "BancoBhdLeonExchangeRateService.Controllers.ExchangeController",
+    "Method": "PostRate",
+    "RelativePath": "api/Exchange",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BancoBhdLeonExchangeRateService.Domain.Models.ExchangeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

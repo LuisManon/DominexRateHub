@@ -1,0 +1,6 @@
+@BanreservasService_HostAddress = http://localhost:5254
+
+GET {{BanreservasService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "BanreservasExchangeRateService.Controllers.ExchangeController",
+    "Method": "GetRate",
+    "RelativePath": "api/Exchange",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BanreservasExchangeRateService.Domain.Models.ExchangeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

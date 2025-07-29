@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  banreservas:
+    build:
+      context: ./BanreservasExchangeRateService
+    ports:
+      - "5001:80"
+    container_name: banreservas-service
+
+  popular:
+    build:
+      context: ./BancoPopularExchangeRateService
+    ports:
+      - "5003:80"
+    container_name: popular-service
+
+  bhdleon:
+    build:
+      context: ./BancoBhdLeonExchangeRateService
+    ports:
+      - "5005:80"
+    container_name: bhdleon-service
+
+  orchestrator:
+    build:
+      context: ./DominexRateOrchestrator
+    ports:
+      - "7262:80"
+    container_name: orchestrator-service
+    environment:
+      - Services__Banreservas=http://banreservas
+      - Services__Popular=http://popular
+      - Services__BhdLeon=http://bhdleon
+    depends_on:
+      - banreservas
+      - popular
+      - bhdleon

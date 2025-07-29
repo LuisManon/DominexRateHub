@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanreservasExchangeRateService", "BanreservasExchangeRateService\BanreservasExchangeRateService.csproj", "{0D6178BB-46CE-0813-33BF-160958A80709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoPopularExchangeRateService", "BancoPopularExchangeRateService\BancoPopularExchangeRateService.csproj", "{222FE565-4463-640A-8819-7967101927A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoBhdLeonExchangeRateService", "BancoBhdLeonExchangeRateService\BancoBhdLeonExchangeRateService.csproj", "{D9EC147B-C2A5-0423-6272-44C6344619F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominexRateOrchestrator", "DominexRateOrchestrator\DominexRateOrchestrator.csproj", "{2FA6C8CF-F60E-4C83-B0FC-B855FDCDFE9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominexRateOrchestrator.Tests", "DominexRateOrchestrator.Tests\DominexRateOrchestrator.Tests.csproj", "{B40D5198-1E44-4522-B690-4173FA97AADF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D6178BB-46CE-0813-33BF-160958A80709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6178BB-46CE-0813-33BF-160958A80709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6178BB-46CE-0813-33BF-160958A80709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6178BB-46CE-0813-33BF-160958A80709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222FE565-4463-640A-8819-7967101927A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222FE565-4463-640A-8819-7967101927A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222FE565-4463-640A-8819-7967101927A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222FE565-4463-640A-8819-7967101927A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9EC147B-C2A5-0423-6272-44C6344619F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EC147B-C2A5-0423-6272-44C6344619F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EC147B-C2A5-0423-6272-44C6344619F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EC147B-C2A5-0423-6272-44C6344619F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA6C8CF-F60E-4C83-B0FC-B855FDCDFE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA6C8CF-F60E-4C83-B0FC-B855FDCDFE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA6C8CF-F60E-4C83-B0FC-B855FDCDFE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA6C8CF-F60E-4C83-B0FC-B855FDCDFE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40D5198-1E44-4522-B690-4173FA97AADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40D5198-1E44-4522-B690-4173FA97AADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40D5198-1E44-4522-B690-4173FA97AADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40D5198-1E44-4522-B690-4173FA97AADF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D6178BB-46CE-0813-33BF-160958A80709} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{222FE565-4463-640A-8819-7967101927A0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D9EC147B-C2A5-0423-6272-44C6344619F2} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2FA6C8CF-F60E-4C83-B0FC-B855FDCDFE9B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B40D5198-1E44-4522-B690-4173FA97AADF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0552633D-7929-4963-A2E5-62ACA3B89BBF}
+	EndGlobalSection
+EndGlobal

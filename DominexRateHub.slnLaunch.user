@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "DominexRateOrchestrator\\DominexRateOrchestrator.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DominexRateGateway\\DominexRateGateway.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

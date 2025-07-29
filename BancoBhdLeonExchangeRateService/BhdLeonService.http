@@ -1,0 +1,6 @@
+@BhdLeonService_HostAddress = http://localhost:5086
+
+GET {{BhdLeonService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

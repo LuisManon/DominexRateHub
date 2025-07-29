@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "DominexRateOrchestrator.Controllers.ExchangeController",
+    "Method": "GetBestRate",
+    "RelativePath": "api/Exchange",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DominexRateOrchestrator.Domain.Models.ExchangeRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

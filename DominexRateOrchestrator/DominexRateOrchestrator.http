@@ -1,0 +1,6 @@
+@DominexRateOrchestrator_HostAddress = http://localhost:5034
+
+GET {{DominexRateOrchestrator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
